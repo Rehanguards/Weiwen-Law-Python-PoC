@@ -1,0 +1,14 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*$py.class
+
+# Environments & Local Configs
+.env
+.venv
+env/
+venv/
+
+# IDE settings
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+
+plugins:
+  generators:
+    rest:
+      Rest:
+        uri: "http://localhost:8000/v1/chat"
+        method: "POST"
+        headers:
+          Content-Type: "application/json"
+          Authorization: "Bearer sas_secret_key_123"
+        req_template: '{"prompt": "$KEY", "provider": "ollama"}'
+        response_json_field: "response"

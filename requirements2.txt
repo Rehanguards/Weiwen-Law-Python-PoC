@@ -1,0 +1,7 @@
+nemoguardrails
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+httpx

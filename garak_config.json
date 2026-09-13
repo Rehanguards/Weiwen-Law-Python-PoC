@@ -1,0 +1,19 @@
+{
+  "rest": {
+    "RestGenerator": {
+      "name": "Spatial App Studio REST Target",
+      "uri": "http://localhost:8000/v1/chat",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer sas_secret_key_123"
+      },
+      "req_template_json_object": {
+        "prompt": "$INPUT",
+        "provider": "ollama"
+      },
+      "response_json": true,
+      "response_json_field": "response"
+    }
+  }
+}
